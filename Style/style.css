@@ -22,55 +22,23 @@ body{
 	color:#5f6368;
 }
 .headerMenu{
-	width:60px;
-	padding-left:8px;
+	width:30px;
+	height:30px;
+	padding-left:7px;
+	padding-top:5px;
 	cursor:pointer;
 }
-.headerMenu span:hover{
+
+.headerMenu:hover{
 	background-color:#D3D3D3;
-	border-radius:100px;
-	padding:5px;
+	border-radius:50px;
 }
+
 .headerBelowIcons{
 	display:flex;
 	flex-direction:column;
 	padding-top:41px;
 }
-/*.mailPart mail{
-	display:flex;
-	flex-direction:column;
-	padding-top:10px;
-	background-color:#d3e3fd;
-	border-radius:100px;
-	width:32px;
-	height:12px;
-	padding-left:8px;
-	padding-bottom:13px;
-	padding-top:2px;
-	justify-content:center;
-	align-items:center;
-	color:black;
-
-}*/
-/*.mail{
-	padding-top:10px;
-	background-color:#d3e3fd;
-	border-radius:100px;
-	width:32px;
-	height:12px;
-	padding-left:8px;
-	padding-bottom:13px;
-	padding-top:2px;
-	justify-content:center;
-	align-items:center;
-	color:black;
-}*/
-/*.mailTxt{
-	font-size:12px;
-	color:#1f1f1f;
-	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-	padding-left:7px;
-}*/
 
 /*MAIL PART START*/
 
@@ -79,13 +47,12 @@ body{
 	flex-direction:column;
 	border-radius:35px;
 	background-color:#d3e3fd;
-	padding:5px;
-	margin-left:5px;
-	width:32px;
+	width:36px;
 	height:27px;
-	padding-left:9px;
-	padding-top:8px;
+	padding-left:10px;
 	cursor:pointer;
+	color:black;
+	padding-top:3px;
 }
 .mailTxt{
 	font-size:12px;
@@ -100,15 +67,16 @@ body{
 .mailBelowIconsFirst{
 	display:flex;
 	flex-direction:column;
-	margin-top:35px;
-	margin-left:11px;
+	margin-top:41px;
+	/*margin-left:10px;*/
 	cursor:pointer;
+	width:34px;
+	height:27px;
+	padding-left:10px;
+	padding-top:7px;
 }
 .mailBelowIconsFirst:hover{
-	padding:3px;
 	border-radius:35px;
-	width:32px;
-	height:27px;
 	background-color:#D3D3D3;
 	
 }
@@ -116,19 +84,20 @@ body{
 	font-size:12px;
 	color:#444746;
 	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	padding-top:5px;
 }
 .mailBelowIconsSecond{
  	display:flex;
 	flex-direction:column;
-	margin-top:10px;
-	margin-left:11px;
+	margin-top:43px;
 	cursor:pointer;
+	width:34px;
+	height:28px;
+	padding-left:10px;
+	padding-top:3px;
 }
 .mailBelowIconsSecond:hover{
-	padding:3px;
 	border-radius:35px;
-	width:32px;
-	height:27px;
 	background-color:#D3D3D3;;
 	
 }
@@ -137,66 +106,6 @@ body{
 	color:#444746;
 	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
-/*MAIL PART ICONS END*/
-	
-	
-
-
-
-
-/*.chatPart{
-	display:flex;
-	flex-direction:column;
-}*/
-/*.chatPart:hover{
-	background-color:#D3D3D3;
-	border-radius:5px;
-	padding:5px;
-	width:20px;
-	height:20px;
-	
-}*/
-
-/*.chat{
-	padding-top:10px;
-	padding-left:8px;
-	justify-content:center;
-	align-items:center;*/
-	/*height:10px;
-	width:10px;*/
-	/*cursor:pointer;
-	
-}*/
-/*.chatTxt{
-	font-size:12px;
-	color:#444746;
-	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-	padding-left:7px;
-	padding-top:10px;
-	
-}*/
-
-/*.meetPart{
-	display:flex;
-	flex-direction:column;
-}
-
-.meet{
-	padding-top:10px;
-	padding-left:8px;
-	justify-content:center;
-	align-items:center;
-	height:10px;
-	width:10px;
-}
-.meetTxt{
-	font-size:12px;
-	color:#444746;
-	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-	padding-left:7px;
-	padding-top:10px;
-}*/
-
 
 
 .headerMiddle{
@@ -214,7 +123,8 @@ body{
 	height:30px;
 	width:15px;
 	padding-left:10px;
-	padding-top:22px;
+	padding-top:28px;
+	cursor:pointer;
 }
 .searchBox{
 	display:flex;
@@ -243,65 +153,68 @@ body{
 	color:black;
 	margin-right:1px;
 	margin-left:4px;
-	padding-right:3px;
 	cursor:pointer;
+	padding:5px;
 }
 .searchIcon:hover{
 	background-color:#D3D3D3;
 	border-radius:100px;
-	padding:5px;
+	
 }
 
 .tune{
 	color:black;
 	margin-right:20px;
 	cursor:pointer;
+	padding:5px;
 }
 .tune:hover{
 	background-color:#D3D3D3;
 	border-radius:100px;
-	padding:5px;
+	
 }
 .rightIcons{
-	margin-left:238px;
-	margin-top:18px;
+	margin-left:268px;
+	margin-top:16px;
+	color:#444746;
 	
 }
 	
 .helpIcon{
-	padding-right:15px;
+	padding:5px;
 	color:#444746;
 	cursor:pointer;
 }
 .helpIcon:hover{
 	background-color:#D3D3D3;
 	border-radius:100px;
-	padding:5px;
+	
 }
 .settingsIcon{
-	padding-right:15px;
+	padding:5px;
 	color:#444746;
 	cursor:pointer;
 }
 .settingsIcon:hover{
 	background-color:#D3D3D3;
 	border-radius:100px;
-	padding:5px;
+	
 }
 .appsIcon{
-	padding-right:15px;
+	padding:5px;
 	color:#444746;
 	cursor:pointer;
 }
 .appsIcon:hover{
 	background-color:#D3D3D3;
 	border-radius:100px;
-	padding:5px;
+	
 }
 .account{
-	width:30px;
-	height:30px;
+	width:25px;
+	height:25px;
 	border-radius:50px;
+	cursor:pointer;
 }
 .headerMiddlePart{
 	display:flex;
@@ -314,30 +227,30 @@ body{
 }
 .headerMiddleLeftContents{
 	display:flex;
-	/*flex-direction:row;*/
-	margin-top:27px;
-	margin-left:15px;
+	flex-direction:row;
+	margin-top:31px;
+	margin-left:9px;
 	outline:none;
-	width:110px;
+	width:115px;
 	align-items:center;
 	border-radius:17px;
 	background-color:#c2e7ff;
 	font-weight:500;
-	height:30px;
 	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 	cursor:pointer;
-	padding:10px;
+	padding:7px;
+	height:43px;
 	
 }
 .headerMiddleLeft span{
 	margin-top:9px;
-	margin-left:10px;
+	margin-left:2px;
 	font-size:20px;
 
 }
 .composeButton{
 	margin-bottom:5px;
-	padding-left:6px;
+	padding-left:10px;
 	font-size:14px;
 	cursor:pointer;
 }
@@ -346,7 +259,10 @@ body{
 	flex-direction:column;
 	padding-top:8px;
 	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-	margin-top:8px;
+	
+}
+.headerMiddleLeftContents:hover{
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 .inboxPart{
 	display:flex;
@@ -357,6 +273,7 @@ body{
 	height:30px;
 	background-color:#a8c7fa;
 	cursor:pointer;
+	margin-top:10px;
 }
 .inboxPart span{
 	margin-left:10px;
@@ -373,25 +290,26 @@ body{
 	flex-direction:row;
 	cursor:pointer;
 	width:198px;
-	height:36px;
+	height:33px;
 	font-size:14px;
+	padding-left:1px;
+	
 }
 .starredPart:hover{
 	border-radius:50px;
 	background-color:#D3D3D3;
-	width:198px;
-	height:33px;
+	
 	
 }
 	
 .starredPart span{
 	margin-left:15px;
 	font-size:20px;
-	margin-top:10px;
+	margin-top:7px;
 }
 .starredPart p{
 	
-	margin-top:14px;
+	margin-top:11px;
 	font-size:14px;
 	padding-left:14px;
 	
@@ -406,8 +324,7 @@ body{
 .snoozPart:hover{
 	border-radius:50px;
 	background-color:#D3D3D3;
-	width:198px;
-	height:30px;
+	
 	
 }
 .snoozPart span{
@@ -430,8 +347,7 @@ body{
 .sentPart:hover{
 	border-radius:50px;
 	background-color:#D3D3D3;
-	width:198px;
-	height:30px;
+	
 	
 }
 .sentPart span{
@@ -453,8 +369,7 @@ body{
 .draftsPart:hover{
 	border-radius:50px;
 	background-color:#D3D3D3;
-	width:198px;
-	height:30px;
+	
 	
 }
 .draftsPart span{
@@ -476,8 +391,7 @@ body{
 .morePart:hover{
 	border-radius:50px;
 	background-color:#D3D3D3;
-	width:198px;
-	height:30px;
+	
 	
 }
 
@@ -499,16 +413,16 @@ body{
 	margin-left:21px;
 }
 .labelPart span{
-	margin-top:12px;
+	margin-top:8px;
 	margin-left:100px;
 	cursor:pointer;
+	height:24px;
+	width:23px;
+	padding:6px;
 }
 .labelPart span:hover{
 	background-color:#D3D3D3;
 	border-radius:100px;
-	padding:2px;
-	width:20px;
-	height:20px
 }
 .labelPart Txt{
 	font-size:14px;
@@ -520,29 +434,31 @@ body{
 }
 .headerMiddleRightIcons{
 	display:flex;
-	margin-top:36px;
+	margin-top:30px;
 	color:#444444;
 	margin-left:30px;
+	width:150px;
+	/*width:150px;*/
 }
 .boxDrop{
-	/*height:50px;*/
+	
 	cursor:pointer;
 	
 }
 .boxDrop span{
 	font-size:20px;
+	padding:5px;
+	height:18px;
+	width:18px;
+	padding-left:3px;
 }
 .box:hover{
-	padding:5px;
-	width:20px;
-	height:17px;
 	border-radius:5px;
 	background-color:#f2f2f2;
 }
+
 .dropDown:hover{
-	padding:5px;
-	width:20px;
-	height:17px;
+	
 	border-radius:5px;
 	background-color:#f2f2f2;
 }
@@ -553,22 +469,21 @@ body{
 .nextIcons span{
 	font-size:20px;
 	cursor:pointer;
+	padding:3px;
+}
+.refresh{
+	padding:3px;
+	margin-top:2px;
 }
 .refresh:hover{
-	padding:5px;
-	width:20px;
-	height:17px;
-	border-radius:5px;
+	border-radius:15px;
 	background-color:#f2f2f2;
 }
 .dot{
 	margin-left:11px;
 }
 .dot:hover{
-	padding:5px;
-	width:20px;
-	height:17px;
-	border-radius:5px;
+	border-radius:15px;
 	background-color:#f2f2f2;
 }
 .headerMiddleSecondRight{
@@ -577,64 +492,154 @@ body{
 }
 .num{
 	display:flex;
-	margin-left:670px;
+	margin-left:654px;
 	color:#5E5E5E;
 	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 	font-size:14px;
 	cursor:pointer;
+	padding:10px;
+	height:14px;
+	width:65px;
 }
 .num:hover{
-	/*height:10px;
-	width:65px;*/
 	background-color:#bfbfbf;
 	border-radius:5px;
-	padding:10px;
+	
 }
 .chevronLeft{
-	margin-top:12px;
+	margin-top:19px;
 	margin-left:26px;
 	color:#5E5E5E;
 	font-size:14px;
 }
 .chevronRight{
-	margin-top:12px;
-	margin-left:19px;
-	font-size:14px;
+	margin-top:20px;
+	margin-left:14px;
 	cursor:pointer;
+	height:26px;
+	width:26px;
 }
 .chevronRight:hover{
 	border-radius:50px;
 	background-color:#e6e6e6;
-	height:25px;
-	width:25px;
-	padding:5px;
+	
 }
 .bodySection{
+	background-color: #F2F6FC;
+	height:526px;
+	margin-top:25px;
+	overflow:scroll;
+	
 }
-.firstSection{
-	display:flex;
+.firstSection {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	cursor: pointer;
+	border-bottom: 1px solid #dddd;
+	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
-.mailIcons{
-	margin-top:17px;
+
+.mailIcons {
+	display: flex;
+	align-items: center;
+	margin-left: 17px;
 }
-.mailIcons span{
-	font-size:20px;
-	margin-left:30px;
-	margin-right:1px;
-	width:1px;
+
+.mailIcons .material-symbols-outlined {
+	margin: 5px;
+	font-size: 20px;
+	color: #cfcfd1;
+
 }
-.senderName{
-	font-size:14px;
-	margin-left:38px;
-	margin-top:20px;
-	color:#5f6368;
-	font-family:
+
+.mailIcons .material-symbols-outlined {
+	padding: 5px;
+	border-radius: 50%;
 }
-.userMessage{
-	margin-top:1px;
-	margin-left:210px;
+
+.mailIcons .material-symbols-outlined:hover {
+	background-color: #e6e6e6;;
+	color: black;
+	
 }
-.dates{
+
+.firstSection:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	border-bottom: 1px solid #dddd;
+}
+.senderName {
+	font-size: 14px;
+	color: #000000;
+	font-weight:300;
 	margin-top:21px;
-	margin-left:217px;
+	padding-left: 5px;
+	width:110px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
+
+
+.userMessage{
+	display: flex;
+	flex: auto;
+	align-items: center;
+	font-size: 14px;
+	margin-left:138px;
+	margin-top:9px;
+
+}
+.userMessage .msg {
+	width: 580px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+
+}
+
+.dates {
+	margin-right: 20px;
+	font-size: 12px;
+	color: #5F6368;
+	margin-top:9px;
+}
+.headerMiddleEnd{
+	margin-left:10px;
+}
+.headerMiddleEndIcons{
+	display:flex;
+	flex-direction:column;
+	margin-top:23px;
+	padding-top:5px;
+}
+.headerMiddleEndIcons img{
+	width:20px;
+	height:20px;
+	padding:15px;
+	cursor:pointer;
+}
+.headerMiddleEndIcons img:hover{
+	border-radius:50px;
+	background-color:#E0E0E0;
+}
+.line{
+	margin-left:10px;
+	color:#E0E0E0;
+}
+.plusIcon{
+	margin-left:11px;
+	width:10px;
+	height:10px;
+}
+.plusIcon img{
+	margin-top:30px;
+	cursor:pointer;
+}
+.plusIcon img:hover{
+	border-radius:50px;
+	background-color:#E0E0E0;
+	
+}
+	
